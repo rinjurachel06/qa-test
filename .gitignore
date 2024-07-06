@@ -1,0 +1,16 @@
+# Visual Studio files
+*.vs/
+*.suo
+*.user
+*.bak
+*.cache
+*.log
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio directories
+_ReSharper*/
+*.resharper
+*.sln.docstates
