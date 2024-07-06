@@ -9,13 +9,13 @@ class Program
         // Create a Chrome WebDriver instance
         using (var driver = new ChromeDriver())
         {
-            // Open the frontend service URL
+            // Open the frontend service URL - change this to correct URL
             driver.Navigate().GoToUrl("http://127.0.0.1:62188/");
 
-            // Wait for page to load (you can enhance this with explicit waits if needed)
+            // Wait for page to load
             System.Threading.Thread.Sleep(2000);
 
-            // Example: Find an element on the page and assert its text
+            // Find an element on the page and assert its text
             IWebElement greetingElement = driver.FindElement(By.TagName("h1"));
             string greetingText = greetingElement.Text;
 

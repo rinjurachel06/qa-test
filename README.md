@@ -28,14 +28,10 @@ The **Frontend Backend Integration Test** repository demonstrates automated test
    cd FrontendBackendIntegrationTest
    ```
 
-2. Install dependencies:
-   ```
-   # Nil
-   ```
-
 ##### Configuration
 
 - Ensure Docker and Minikube are properly configured and running.
+- Ensure frontend and backend services are running
 
 #### Running Tests
 
@@ -43,7 +39,8 @@ To run the automated test script:
 
 1. Open Visual Studio and load the solution.
 2. Configure Selenium WebDriver for C#.
-3. Run the test script to verify frontend-backend integration.
+3. Set the correct frontend service URL in the test script.
+4. Run the test script to verify frontend-backend integration.
 
 #### License
 
